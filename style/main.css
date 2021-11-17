@@ -1,0 +1,141 @@
+:root{
+    --azul: #00BFFF;
+    --preta: #141414;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+
+body{
+    background: var(--preta);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--azul);
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: whitesmoke;
+}
+
+/*serie principal*/
+.serie-principal{
+    font-size: 15px;
+    background: url(img/game\ of\ thrones\ mod..JPG);
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.serie-principal .descricao{
+    margin-bottom: 90px;
+}
+
+.titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 10px 20px;
+    margin-right: 10px;
+    font-size: 12px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: white;
+    color: var(--preta);
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+.container{
+    margin-left: 20px;
+}
+
+.serie-principal .container{
+    width: 70%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel-filmes{
+    margin-top:5px;
+}
+
+.Lancamentos{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
+.filmes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    
+}
+
+.series{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: sans-serif;
+
+}
+
+.animes{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: sans-serif;
+}
+
